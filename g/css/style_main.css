@@ -1681,6 +1681,114 @@ marquee {
 
 /* ==============================responsiive================================================== */
 
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1600px) {
+
+  h1 {
+    font-size: 27px;
+  }
+
+
+  h2 {
+    font-size: 23px !important;
+  }
+
+  .header .menu ul li a {
+    padding: 0 11px;
+    font-size: 14px;
+
+  }
+
+  .header .menu ul li a:hover {
+    padding: 0 11px;
+    font-size: 14px;
+
+  }
+
+  .header .logo img {
+    width: 120px !important;
+  }
+
+  .header .contect-us {
+    padding: 7px 8px;
+  }
+
+  .header .contect-us ul li a {
+    font-size: 13px;
+  }
+
+
+  .banner .banner_wrapper_text .bgk ul li p {
+    font-size: 31px !important;
+    font-weight: 623;
+    padding-top: 12px;
+    margin-top: 5px !important;
+
+  }
+
+  .banner .banner_wrapper_text .bgk ul li h3 {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .div_highlight {
+    width: 408px;
+  }
+
+  .banner .banner_wrapper_text .banner_highlight h3 {
+    font-size: 15px;
+    letter-spacing: 0.3px;
+  }
+
+  .banner .banner_wrapper_text h6 {
+    font-size: 14px;
+  }
+
+  .banner .banner_wrapper_text h3 {
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  .banner .banner_text .form_section {
+    width: 306px;
+  }
+
+  .btan_g {
+    padding: 3px 9px;
+    font-size: 15px;
+  }
+
+  .madal-reload h5 {
+    font-size: 21px;
+  }
+
+  .highlight_tag img {
+    width: 270px;
+  }
+
+
+  .item .inner p span.key {
+    font-size: 19px;
+    padding-bottom: 6px;
+  }
+
+  .item .inner p span {
+    font-size: 19px;
+  }
+
+  .item .inner {
+    padding: 15px 13px;
+  }
+
+
+}
+
+
+
+
+
 @media only screen and (max-width: 991px) {
   h1 {
     font-size: 30px;
