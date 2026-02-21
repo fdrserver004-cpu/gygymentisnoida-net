@@ -15,7 +15,7 @@ $phone    = trim($_POST['Phone'] ?? '');
 $project  = trim($_POST['mx_Project_Name'] ?? '');
 $location = trim($_POST['mx_City'] ?? '');
 $client   = trim($_POST['CLIENT'] ?? '');
-
+$domain   = trim($_POST['Domian'] ?? '');
 if (!$name || !$email || !$phone) {
     echo json_encode(['status' => 'error']);
     exit;
@@ -103,7 +103,8 @@ $sheetRow = [
     $geo['region'],
     $geo['city'],
     $client,
-    $crmSuccess ? 'SUCCESS' : 'FAILED'
+    $crmSuccess ? 'SUCCESS' : 'FAILED',
+    $domain
 ];
 
 $spreadsheetId = "1_3xJfI4wh-Zx3liNjSC3oRl157qSp99J6-fKDfuoRZ8";
